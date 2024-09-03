@@ -1,0 +1,62 @@
+.search_bar {
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url(background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    background-color: transparent;
+}
+
+li {
+    background-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: antiquewhite;
+    font-size: 1.5em;
+    display: inline-block;
+    margin: 1.1em 3em;
+    font-weight: bold;
+}
+
+hr {
+    width: 30%;
+    margin-bottom: 2em;
+}
+
+.input {
+    display: inline;
+    background-color: transparent;
+}
+
+input {
+    width: 30em;
+    height: 2.5em;
+    margin: 1em 1.5em;
+    border-radius: 10px;
+    font-size: 1.1em;
+}
+
+button {
+    width: 8em;
+    height: 2em;
+    border-radius: 10px;
+    background-color: rgb(242, 200, 146);
+    color: rgb(25, 24, 24);;
+    margin: 1.1em;
+    font-size: 1.5em;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+button:hover {
+    background-color: rgb(187, 127, 53);
+    color: white;
+}
